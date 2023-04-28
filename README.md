@@ -11,7 +11,7 @@
  > PlzMyFridge can make people's life more convenient when using in conjunction with refrigerator IoT
 
 ### Project Members Info
- > 201635811 Min Woo Hyuck 
+ > 201635811 Min Woo Hyuck  
  > 201732740 Hong Eui Jung  
  > 201739289 Hon Hee Jin  
  > 201835523 Jeong Soo Min  
