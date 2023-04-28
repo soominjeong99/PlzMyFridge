@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="필요한 재료를 장바구니에 담아보세요!"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_marginRight="2dp"
+            android:background="#9C27B0"
+            android:text="추가"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#9C27B0"
+            android:text="삭제"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="multipleChoice">
+
+    </ListView>
+
+</LinearLayout>

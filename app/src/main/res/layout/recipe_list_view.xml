@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/recipe_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:layout_margin="3dp"
+        android:backgroundTint="#83EC87"
+        android:id="@+id/resipe_go"
+        >
+
+    </Button>
+
+
+</LinearLayout>

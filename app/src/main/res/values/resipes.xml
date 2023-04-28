@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 레시피 사진 위치 -->
+    <integer-array name="recipeStart">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>17</item>
+        <item>23</item>
+        <item>30</item>
+        <item>35</item>
+    </integer-array>
+
+
+    <!-- 레시피당 카테고리 값    육류 1/ 해산물 2/ 야체 3 -->
+    <integer-array name="recipeCate">
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <!-- 레시피당 제료 값 -->
+    <integer-array name="recipeToTenInt">
+        <item>2112123</item>
+        <item>1245280</item>
+        <item>557572</item>
+        <item>4981253</item>
+        <item>2631545</item>
+        <item>8405120</item>
+    </integer-array>
+
+
+
+
+</resources>

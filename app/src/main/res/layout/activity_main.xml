@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Plz My Fridge_냉장고를 부탁해"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+        tools:ignore="DuplicateIds,MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/goRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_baseline_menu_book_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:paddingLeft="10sp"
+            android:text="레시피 찾기"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:duplicateParentState="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goRecipe"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/main_frige"
+            android:backgroundTint="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_baseline_kitchen_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:text="나의 냉장고"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_frige"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/main_buying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_baseline_shopping_basket_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:text="장보기"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/main_buying"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/main_logout"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:backgroundTint="#FFFFFF"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:src="@drawable/ic_baseline_sensor_door_24" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:backgroundTint="#FFFFFF"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="로그아웃/회원탈퇴"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="14sp"-->
+<!--            tools:ignore="RtlCompat" />-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

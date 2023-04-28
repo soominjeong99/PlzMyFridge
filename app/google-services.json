@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1049523692115",
+    "project_id": "plzmf-ebad6",
+    "storage_bucket": "plzmf-ebad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049523692115:android:5df21aa528019858809ca6",
+        "android_client_info": {
+          "package_name": "gachon.myclass.plzmyfrige"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049523692115-aqmdh0g35bbqgqonkj49aqcgg4oqpvml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gachon.myclass.plzmyfrige",
+            "certificate_hash": "a495567e114e843bc8027f638c6643ac64bebdc7"
+          }
+        },
+        {
+          "client_id": "1049523692115-0lahi159c75it0d08be4jvmbe321opju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvc7iNF3NFGxY9sNggk93bc_-NDVc1R2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049523692115-0lahi159c75it0d08be4jvmbe321opju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

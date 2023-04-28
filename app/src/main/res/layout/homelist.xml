@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="재료"
+        android:id="@+id/재료"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frigelistview"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/재료"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="도구"
+        android:id="@+id/도구"
+        android:layout_below="@+id/frigelistview"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/utensillistview"
+        android:textStyle="bold"
+        android:layout_below="@+id/도구"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비우기"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/clearbtn"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFridge/app/src/main/res/layout/activity_main.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/activity_logout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/activity_signup.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/cartpage.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/fillutensil.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/onlinemall.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/recipe_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/sinppet_login_email_center.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/Downloads/PlzMyFrige-master/PlzMyFrige-master/app/src/main/res/layout/sinppet_login_password_center.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

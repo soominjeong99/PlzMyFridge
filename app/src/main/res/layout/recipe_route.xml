@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Choice"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:autoSizeMaxTextSize="50dp"
+            app:autoSizeMinTextSize="20sp"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/meat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Meat!"
+            app:backgroundTint="#E88D87"
+            android:textSize="40sp"
+            app:autoSizeMaxTextSize="50dp"
+            app:autoSizeMinTextSize="20sp"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <Button
+            android:id="@+id/seaFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Sea Food!"
+            app:backgroundTint="#AEDFE8"
+            android:textSize="40sp"
+            app:autoSizeMaxTextSize="50dp"
+            app:autoSizeMinTextSize="20sp"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <Button
+            android:id="@+id/vegetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Vegetable!"
+            app:backgroundTint="#B9E8AE"
+            android:textSize="40sp"
+            app:autoSizeMaxTextSize="50dp"
+            app:autoSizeMinTextSize="20sp"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|end"
+            android:layout_weight="1"
+            android:text="처음으로"
+            app:backgroundTint="#E8B2AE"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <Button
+            android:id="@+id/resipeAll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="모두 보기"
+            app:backgroundTint="#E1E0B9"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

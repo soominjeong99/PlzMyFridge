@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PlzMyFridge</string>
+
+    <string-array name = "recipe_list">
+        <item>갈치 조림</item>
+        <item>겉절이</item>
+        <item>황금 계란 볶음밥</item>
+        <item>새우 볶음밥</item>
+        <item>제육 볶음</item>
+        <item>카레 닭가슴살</item>
+    </string-array>
+
+
+</resources>
+
+
+
+
+
+
