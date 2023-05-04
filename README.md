@@ -1,8 +1,8 @@
 # PlzMyFridge
-### [21-1 Semester] Gachon Univ. Dept.of Software Mobile Programming Term Project
+### [21-1 Semester] Gachon Univ. Dept. of Software Mobile Programming Term Project
 
 ### Project Name
- > PlzMyFridge
+ > Plz My Fridge (냉장고를 부탁해)
 
 ### Brief Description
  > PlzMyFridge is an application that provide recipes based on the cooking utensils and food that user's have.  
