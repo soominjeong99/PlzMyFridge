@@ -1,5 +1,5 @@
 # PlzMyFridge
-### [21-1 Semester] Gachon Univ.Dept.of Software Mobile Programming Term Project
+### [21-1 Semester] Gachon Univ. Dept.of Software Mobile Programming Term Project
 
 ### Project Name
  > PlzMyFridge
